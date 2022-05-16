@@ -19,6 +19,7 @@ function closeMenu() {
 }
 
 emailjs.init("9LoDMOhDM1BNQnZdU");
+
 document
   .getElementById("contact-form")
   .addEventListener("submit", function sendForm(event) {
